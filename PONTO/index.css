@@ -1,0 +1,39 @@
+.conteiner
+{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: 
+    'header header header header'
+    'sidebar content content content'
+    'footer footer footer footer';
+    padding: 15px;
+    border: 4px solid red;
+    background-color: #0cf25d;
+}
+
+.conteiner div
+{
+    padding: 20px;
+    border: 1px solid blue;
+    background-color: #ccc;
+}
+
+#header
+{
+    grid-area: header;
+}
+
+#sidebar
+{
+    grid-area: sidebar;
+}
+
+#content
+{
+    grid-area: content;
+}
+
+#footer
+{
+    grid-area: footer;
+}
